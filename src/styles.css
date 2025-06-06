@@ -238,7 +238,31 @@ a{
     }
 }
 /* for large devices */
+@media screen and (min-width : 1118px) {
+    .container {
+        margin-inline: auto;
+    }
+    .nav {
+        height: calc(var(--header-height) + 2rem);
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav__toggle {
+        display: none;
+    }
+    .nav__list{
+        height: 100%;
+        display: flex;
+        column-gap: 3rem;
+    }
+    .nav__link {
+        height: 100%;
+        padding: 0;
+        justify-content: initial;
+        column-gap: .25rem;
+    }
+    
+    /* show dropdown menu */
 
-/* show dropdown menu */
-
-/* show dropdown submenu*/
+    /* show dropdown submenu*/
+}
