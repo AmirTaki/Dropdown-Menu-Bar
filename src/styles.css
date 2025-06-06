@@ -97,7 +97,6 @@ a{
     position: relative;
     width: 32px;
     height: 32px;
-    background-color: gray;
 }
 
 .nav__burger,
@@ -111,6 +110,6 @@ a{
     cursor: pointer;
     transition: opacity .1s, transform .4s  ;
 }
-.nva__close {
+.nav__close {
     opacity: 0;
 }
