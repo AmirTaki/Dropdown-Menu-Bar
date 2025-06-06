@@ -156,3 +156,12 @@ a{
     top : 3.5rem;
     pointer-events: initial;
 }
+/* show icon */
+.show-icon .nav__burger {
+    opacity: 0;
+    transform: rotate(90deg)
+}
+.show-icon .nav__close {
+    opacity: 1;
+    transform: rotate(90deg)
+}
