@@ -225,3 +225,20 @@ a{
 .dropdown__sublink {
     background-color: var(--black-color-light);
 }
+
+
+/* breakpoints */
+/* for small devices */
+@media screen and (max-width : 340px) {
+    .container {
+        margin-inline: 1rem;
+    }
+    .nav__link {
+        padding-inline: 1rem;
+    }
+}
+/* for large devices */
+
+/* show dropdown menu */
+
+/* show dropdown submenu*/
