@@ -165,3 +165,25 @@ a{
     opacity: 1;
     transform: rotate(90deg)
 }
+
+/* DROP DOWN */
+.dropdown__item{
+    cursor: pointer;
+}
+
+.dropdown__arrow {
+    font-size: 1.25rem;
+    font-weight: initial;
+    transition: transform  .4s;
+}
+
+.dropdown__link {
+    padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+    color : var(--white-color);
+    background-color: var(--black-color-light);
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    font-weight: var(--font-semi-bold);
+    transition: background-color .3s;
+}
