@@ -187,3 +187,25 @@ a{
     font-weight: var(--font-semi-bold);
     transition: background-color .3s;
 }
+
+.dropdown__link i {
+    font-size: 1.25rem;
+    font-weight: inherit;
+}
+.dropdown__link:hover {
+    background-color: var(--black-color);
+}
+
+.dropdown__menu, 
+.dropdown__submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .4s ease-out;
+}
+
+/* Show dropdown menu & submenu */
+.dropdown__item:hover .dropdown__menu, 
+.dropdown__subitem:hover > .dropdown__submenu {
+  max-height: 1000px;
+  transition: max-height .4s ease-in;
+}
