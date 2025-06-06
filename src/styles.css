@@ -113,3 +113,19 @@ a{
 .nav__close {
     opacity: 0;
 }
+
+/* NAVIGATION FOR MOBILE DEVICES  */
+@media screen and (max-width:1118px){
+    .nav__menu {
+        position: absolute;
+        left : 0;
+        top: 2.5rem;
+        width: 100%;
+        background-color: gray;
+        height: calc(100vh - 3.5rem);
+        /* overflow: auto;
+        pointer-events: none;
+        opacity: 0; */
+        transition: top .4s, opacity .3s;
+    }
+}
