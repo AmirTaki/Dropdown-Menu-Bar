@@ -150,3 +150,9 @@ a{
 .nav__link:hover {
     background-color: var(--black-color-light);
 }
+/* show menu */
+.show-menu{
+    opacity: 1;
+    top : 3.5rem;
+    pointer-events: initial;
+}
