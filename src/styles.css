@@ -64,3 +64,19 @@ a{
     box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
     z-index: var(--z-fixed);
 }
+/* nav */
+.nav{
+    height: var(--header-height);
+}
+.nav__logo,
+.nav__burger,
+.nav__close{
+    color : var(--white-color)
+}
+
+.nav__data {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
