@@ -121,11 +121,17 @@ a{
         left : 0;
         top: 2.5rem;
         width: 100%;
-        background-color: gray;
         height: calc(100vh - 3.5rem);
         /* overflow: auto;
         pointer-events: none;
         opacity: 0; */
         transition: top .4s, opacity .3s;
+    }
+    .nav__menu::-webkit-scrollbar{
+        width: 0;
+    }
+    .nav__list {
+        background-color: var(--black-color);
+        padding-top: 1rem;
     }
 }
