@@ -135,3 +135,15 @@ a{
         padding-top: 1rem;
     }
 }
+
+.nav__link {
+    color : var(--white-color);
+    background-color: var(--black-color);
+    font-weight: var(--font-semi-bold);
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color .3s;
+
+}
