@@ -122,9 +122,9 @@ a{
         top: 2.5rem;
         width: 100%;
         height: calc(100vh - 3.5rem);
-        /* overflow: auto;
+        overflow: auto;
         pointer-events: none;
-        opacity: 0; */
+        opacity: 0;
         transition: top .4s, opacity .3s;
     }
     .nav__menu::-webkit-scrollbar{
@@ -145,5 +145,8 @@ a{
     justify-content: space-between;
     align-items: center;
     transition: background-color .3s;
+}
 
+.nav__link:hover {
+    background-color: var(--black-color-light);
 }
