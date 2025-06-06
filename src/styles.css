@@ -199,14 +199,16 @@ a{
     background-color: var(--black-color);
 }
 
-.dropdown__menu {
+.dropdown__menu,
+.dropdown__submenu {
   max-height: 0;
   overflow: hidden;
   transition: max-height .4s ease-out;
 }
 
 /* Show dropdown menu & submenu */
-.dropdown__item:hover .dropdown__menu {
+.dropdown__item:hover .dropdown__menu,
+.dropdown__subitem:hover > .dropdown__submenu  {
   max-height: 1000px;
   transition: max-height .4s ease-in;
 }
